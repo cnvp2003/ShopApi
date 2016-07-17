@@ -1,3 +1,4 @@
+/*
 package com.db;
 
 import org.junit.Before;
@@ -29,11 +30,13 @@ public class ShopApplicationTest {
 	private URL base;
 	private RestTemplate template;
 
-	/*@Bean
+	*/
+/*@Bean
 	@Primary
 	public ShopService shopService() {
 		return Mockito.mock(ShopService.class);
-	}*/
+	}*//*
+
 
 	@Before
 	public void setUp() throws Exception {
@@ -46,4 +49,4 @@ public class ShopApplicationTest {
 		ResponseEntity<String> response = template.getForEntity(base.toString(), String.class);
 		assertThat(response.getBody(), equalTo("Test"));
 	}
-}
+}*/
